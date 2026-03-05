@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1C1C1E">
+
+    <!-- Header -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        android:padding="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3A3A3C" />
+
+    <!-- List fills remaining space; FrameLayout lets the empty view sit behind -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/history_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1C1C1E"
+            android:divider="#3A3A3C"
+            android:dividerHeight="1dp" />
+
+        <!-- Shown automatically by ListView.setEmptyView() when list is empty -->
+        <TextView
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="No calculations yet."
+            android:textColor="#8E8E93"
+            android:textSize="16sp" />
+
+    </FrameLayout>
+
+</LinearLayout>
