@@ -5,7 +5,9 @@
 - Student name: Cem Cakir
 - Student ID: 44463
 
-CalculatorApp is an Android Studio project written in Java. The app implements a calculator with basic arithmetic operations, base conversion, history, and an expression calculator screen.
+## Description
+
+CalculatorApp is an Android Studio project written in Java. It provides a basic calculator, number base conversion, calculation history, and an expression calculator screen. The app demonstrates input handling, multiple screens, and arithmetic logic for common calculator operations.
 
 ## Build
 
