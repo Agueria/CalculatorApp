@@ -12,6 +12,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.util.ArrayList;
 
+// Student: Cem Cakir, Student ID: 44463, Lab Task 3
 public class MainActivity extends AppCompatActivity {
 
     private TextView display;
